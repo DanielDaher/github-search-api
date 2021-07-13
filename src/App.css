@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('../src/imagens/logo-2582757_640.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button, .voltar-link {
+  background-color: slateblue;
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+form {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  height: 28px;
+  width: 200px;
+  text-align: center;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .github-logo {
+  background-image: url('../src/imagens/github-154769_640.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  min-width: 100vw;
+} */
+
+.user-link {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vh;
+  max-height: 50vh;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.list-users {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: black;
+  margin-top: 200px;
+}
+
+.repo-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  height: 450px;
+}
+
+.repo-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: slateblue;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  height: 40px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.repo-links div {
+  flex-grow: 1;
+}
+
+.details-main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+  width: 1000px;
+}
+
+.details-body {
+  background-color: black;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-user-avatar {
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.voltar-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: slateblue;
+  color: white;
+  width: 100px;
+}
